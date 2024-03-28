@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="shortcut icon" href="img/homenone.png" type="imagens/x-icon">
+    
+    <title>AGENDAMENTO DE CONSULTORIA</title>
+</head>
+<body>
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="img/MuscUp.png" alt="logo">
+        </a>
+    
+    
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="index.html">SOBRE</a>
+        <a href="index.html">MENU</a>
+        <a href="index.html">PRODUTOS</a>
+        <a href="index.html">REVIEW</a>
+        <a href="index.html">CONTATO</a>
+        <a href="agendamento.html">AGENDAMENTO</a>
+    
+    </nav>    
+
+    <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fa-buscar"></label>
+    </div>
+    
+    
+    <div class="cart-items-container">
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/whey.jpg" alt="">
+            <div class="content">
+                <h3>Whey</h3>
+                <div class="price">$16.99/-</div>
+            </div>
+        </div>
+    
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/creatina.jpg" alt="">
+            <div class="content">
+                <h3>Creatina</h3>
+                <div class="price">$16.99/-</div>
+            </div>
+        </div>
+    
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/glutamina.jpg" alt="">
+            <div class="content">
+                <h3>Glutamina</h3>
+                <div class="price">$16.99/-</div>
+            </div>
+        </div>
+    
+        <div class="cart-item">
+            <span class="fas fa-times"></span>
+            <img src="img/multivitaminico.jpg" alt="">
+            <div class="content">
+                <h3>Multivitamínico</h3>
+                <div class="price">$16.99/-</div>
+            </div>
+        </div>
+    
+        <a href="#" class="btn">checkout now</a>
+    </div>
+       </header>
+
+
+
+<section class="agenda">
+    <div class="content">
+        <h3>Agende já sua consultoria </h3>
+        <a href="#contact" class="btn">Agendar</a>
+    </div>
+   </section>
+
+
+   <section class="contact" id="contact">
+
+    <h1 class="heading"><span>admissão </span> de dados </h1>
+    <div class="row">
+
+    
+            <form action="mailto:isaacsoarez.254@gmail.com" method="POST" enctype="text/plain">
+                
+                
+                <div class="inputBox">
+                    <span class="fas fa-fingerprint"></span>
+
+                    <input type="number" placeholder="cpf">
+                </div>
+                
+
+
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+
+                    <input type="text" placeholder="nome">
+                </div>
+
+
+
+                <div class="inputBox">
+                    <span class="fas fa-clinic-medical"></span>
+
+                    <input type="text" placeholder="especialidade">
+                </div>
+                
+
+
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+
+                    <input type="tel" placeholder="number">
+                </div>
+            
+
+
+                <div class="inputBox">
+                    <span class="far fa-calendar"></span>
+
+                    <input type="text" placeholder="data">
+                </div>
+
+
+
+                <input type="submit" value="Inserir" class="btn">&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Atualizar" class="btn">&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Deletar" class="btn">&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="Visualizar" class="btn">
+
+            
+            </form>
+    
+    </div>
+</section>
+
+
+
+</body>
+
+<script src="script.js"></script>
+</html>
