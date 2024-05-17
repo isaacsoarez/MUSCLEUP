@@ -1,0 +1,29 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Firebase login</title>
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+    </head>
+    <body>
+        <section class="section-form">
+            <form>
+                <h1 class="titulo">Log-in e Cadastro</h1>
+                <label class="campos">Nome:</label>
+                <input type="text" id="nome" class="tbox"><br>
+                <label class="campos">E-mail:</label>
+                <input type="text" id="email" class="tbox"><br>
+                <label class="campos">Senha:</label>
+                <input type="password" id="senha" class="tbox"><br>
+                <button type="button" onclick="cadastrar()" class="button" id="cadastro">Cadastrar</button><br>
+                <button type="button" onclick="entrar()" class="button" id="login">Entrar</button>
+            </form>
+        </section>
+        <script src="firebase.js"></script>
+    </body>
+    </html>
